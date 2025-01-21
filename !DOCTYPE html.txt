@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* Same CSS as before for styling */
+    </style>
+</head>
+<body>
+    <!-- Floating Button -->
+    <button id="chatbot-toggle">💬</button>
+
+    <!-- Chatbot Container -->
+    <div id="chatbot-container">
+        <div id="chatbot-header">Chatbot</div>
+        <div id="chatbox"></div>
+        <div id="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script> window.chtlConfig = { chatbotId: "6716335147" , display: "fullscreen" } </script>
+<script async data-id="6716335147" id="chatling-embed-script" data-display="fullscreen" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</script>
+</body>
+</html>
